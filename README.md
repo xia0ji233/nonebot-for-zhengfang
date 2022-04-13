@@ -1,1 +1,7 @@
-"# nonebot-for-zhengfang" 
+## 基于nonebot和requests开发的爬虫插件
+
+nonebot版本：0.6.6
+
+使用/help命令获取帮助，目前已开发的功能有：查课表，查考试信息，查成绩，算gpa，选课等等。
+
+教务系统为正方，目前正在嘉兴学院投入使用。
