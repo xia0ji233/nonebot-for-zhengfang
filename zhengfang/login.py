@@ -723,9 +723,8 @@ class session():
             #print(p.text)
         return p.text
 if __name__=='__main__':
-    s =  session('202059545308','5211314lqz')
+    s =  session('','')
     #cookie=s.login()
-    cookie='JSESSIONID=369B6D2642F7F276719FEF02034DD968'
     xkkz_id,text=s.do_pre_work()
     res=s.query_kch(cookie,text)
     res=s.query_cls(cookie,'24837',xkkz_id,text)
